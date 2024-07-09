@@ -2,7 +2,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 
 }
-
+                         /*CSS for Header*/
 .header {
     background-color: #1F2937;
     margin: -8px;
@@ -10,7 +10,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-gap: 350px;
+    gap: 350px;
+    padding: 4px;
 }
 
 .logo {
@@ -29,13 +30,50 @@ gap: 350px;
     flex-shrink: 0;
 }
 
-
-
-
+                     /*CSS for Hero Banner*/
 .herobanner {
+    display: flex;
+    padding-bottom: 120px;
+    padding-top: 100px;
+    background-color: #1F2937;
+    margin: -8px;
+    justify-content: center;
+}
+.herotext {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 8px;
+}
+#herotitle {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 
 }
+#subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 480px;
 
+}
+#hero-image {
+    width: 500px;
+    background-color: #7a7a7a;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-signup {
+    background-color: #3882F6;
+    width: 130px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 8px;
+}
 
 
 
