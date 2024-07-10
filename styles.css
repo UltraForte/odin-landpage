@@ -17,7 +17,7 @@ body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    margin-left: 75px;
+    margin-left: 250px;
     flex-shrink: 0;
     font-weight: 700;
 }
@@ -25,7 +25,7 @@ body {
 .links {
     display: flex;
     gap: 16px;
-    margin-right: 100px;
+    margin-right: 260px;
     font-size: 18px;
     flex-shrink: 0;
 }
@@ -38,6 +38,7 @@ body {
     background-color: #1F2937;
     margin: -8px;
     justify-content: center;
+    gap: 16px;
 }
 .herotext {
     display: flex;
