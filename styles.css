@@ -17,7 +17,7 @@ body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    margin-left: 250px;
+    margin-left: 240px;
     flex-shrink: 0;
     font-weight: 700;
 }
@@ -37,6 +37,7 @@ body {
     padding-top: 100px;
     background-color: #1F2937;
     margin: -8px;
+    margin-bottom: 0px;
     justify-content: center;
     gap: 16px;
 }
@@ -74,6 +75,54 @@ body {
     font-weight: 600;
     padding: 8px;
     border-radius: 8px;
+}
+                     /*CSS for Carousel (3rd section)*/
+.carouselsection {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 130px;
+}
+
+.carouseltitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    padding: 48px;
+    padding-bottom: 58px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.card1, .card2, .card3, .card4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    gap: 8px;
+}
+
+#image1, #image2, #image3, #image4 {
+    background-color: #F9FAF8;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    border: solid 5px;
+    border-color: #3882F6;
+    border-radius: 16px;
+}
+
+#carouseltext1, #carouseltext2, #carouseltext3, #carouseltext4 {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
 }
 
 
