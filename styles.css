@@ -75,6 +75,7 @@ body {
     font-weight: 600;
     padding: 8px;
     border-radius: 8px;
+    margin-top: 8px;
 }
                      /*CSS for Carousel (3rd section)*/
 .carouselsection {
@@ -124,8 +125,31 @@ body {
     font-size: 18px;
     color: #1F2937;
 }
+                     /*CSS for Quote (4th section)*/
+.quotesection {
+    background-color: #E5E7EB;
+    margin: -8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    width: 820px;
+    padding-top: 130px;
+}
 
+#author {
+    font-weight: 600;
+    width: 820px;
+    text-align: end;
+    padding-bottom: 96px;
+    font-size: 24px;
+}
 
 
 
