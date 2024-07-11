@@ -197,7 +197,15 @@ body {
     border-radius: 8px;
     align-self: center;
 }
-
+                     /*CSS for Footer*/
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 18px;
+    padding: 42px;
+    margin: -8px;
+}
 
 
 /*remove underline, bullets, and indentation from links and lists*/
