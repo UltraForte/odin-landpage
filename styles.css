@@ -53,7 +53,7 @@ body {
     color: #F9FAF8;
 
 }
-.herotext#subtext {
+.herotext #subtext {
     font-size: 18px;
     color: #E5E7EB;
     width: 480px;
