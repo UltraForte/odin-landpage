@@ -167,6 +167,7 @@ body {
     padding: 56px 48px;
     border-radius: 8px;
     gap: 170px;
+    flex-shrink: 0;
 }
 
 #call-to-action-text {
@@ -196,6 +197,7 @@ body {
     padding: 8px;
     border-radius: 8px;
     align-self: center;
+    flex-shrink: 0;
 }
                      /*CSS for Footer*/
 .footer {
